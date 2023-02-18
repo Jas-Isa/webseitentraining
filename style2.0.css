@@ -1,0 +1,68 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+
+.Header1 {
+    width: 100%;
+    height: 65px;
+    display: grid;
+    background-color: white;
+    padding: 1%;
+}
+
+.grid-container{
+    display: grid;
+    grid-auto-columns: max-content;
+    grid-column-gap: 10%;
+    align-content: center;
+}
+
+.grid-item-1{
+    grid-row: 1 / 2;
+    grid-column: 1 / 2;
+}
+
+.grid-item-2{ 
+    grid-row: 1 / 2;
+    grid-column: 2 / 3;
+}
+
+.grid-item-3{
+    grid-row: 1 / 2;
+    grid-column: 3 / 4; 
+}
+
+.grid-item-4{
+    grid-row: 1 / 2;
+    grid-column: 4 / 5;
+}
+
+.grid-item-5{
+    grid-row: 1 / 2;
+    grid-column: 5 / 6;
+}
+
+.grid-item a{
+    color: black;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    justify-content: center;
+}
+
+.grid-item a:hover{
+    text-decoration: underline;
+}
+
+
+
+
+.Homepage{
+    width: 100%;
+    height: 1000px;
+    background-image: url(/Users/jasminmohr/Desktop/webseitentraining/Sam\ Cover.jpg);
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+    background-position: top;
+}
