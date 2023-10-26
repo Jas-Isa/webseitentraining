@@ -29,7 +29,7 @@
 
 
 .black-transparent {
-    background:  rgba(0, 0, 0, 0.40);
+    background:  rgb(35 27 27 / 40%);
 }
 
 .grid-header-container {
@@ -92,7 +92,7 @@
 }
 
 .center-about-text {
-    padding: 10% 0%;
+    padding: 0% 0%;
 }
 
 .grid-news-container {
@@ -196,11 +196,55 @@
 
 .contact-item-1{
     justify-self: center;
+    padding-bottom: 2%;
 }
 
 .contact-item-2{
     text-align: center;
 }
+
+.contact-item-3{
+    justify-self: center;
+    padding-bottom: 2%;
+    text-align: center;
+}
+
+.contact-item-4{
+    justify-self: center;
+    padding-bottom: 2%;
+    text-align: center;
+}
+
+.contact-item-5{
+    justify-self: center;
+    padding-bottom: 2%;
+    text-align: center;
+}
+
+.contact-item-6{
+    justify-self: center;
+    padding-bottom: 2%;
+    text-align: center;
+}
+
+.contact-item-7{
+    justify-self: center;
+    padding-bottom: 2%;
+    text-align: center;
+}
+
+.contact-item-8{
+    justify-self: center;
+    padding-bottom: 2%;
+    text-align: center;
+}
+
+.contact-item-9{
+    justify-self: center;
+    padding-bottom: 2%;
+    text-align: center;
+}
+
 
 .title-studs-item-1 {
     justify-self: left;
@@ -236,12 +280,17 @@
 }
 
 .about-item-1 {
-    width: fit-content;
-    justify-self: center;
+    font-family: News Cycle, sans-serif;
+    padding-top: 6%;
+    padding-bottom: 1%;
 }
 
 .about-item-2 {
     padding: 0% 5% 3% 5%;
+}
+
+.black-font {
+    color: #000;
 }
 
 .about-font{
@@ -253,16 +302,16 @@
 }
 
 .about-item-4 {
+    padding: 0% 5% 3% 5%;
+}
+
+.about-item-6 {
     padding: 0% 5% 0% 5%;
 }
 
-.about-item-5 {
+.about-item-7 {
     margin-top: 2%;
     justify-self: center;
-}
-
-.about-title {
-    font-size: 54px;
 }
 
 .homepage-text-container {
@@ -277,23 +326,18 @@
 
 .page-item-1{
     grid-row: 1 / 2;
-    margin-top: 8%;
+    margin-top: 0%;
     width: fit-content;
 }
 
 .page-item-2{
     grid-row: 2 / 3;
-    color: white;
+    color: rgb(204 200 197);
     font-family: Euclid Circular,verdana,arial,sans-serif;
     font-size: 16px;
     margin-bottom: 3%;
     width: fit-content;
     padding: 0% 5%;
-}
-
-.page-item-3{
-    grid-row: 3 / 4;
-    margin-bottom: 8%;
 }
 
 .homepage{
@@ -358,6 +402,7 @@
 .banner-item-3{
     grid-row: 3 / 4;
     grid-column: 1 / -1;
+    margin-bottom: 8%;
 }
 
 .grid-studs-container {
@@ -944,8 +989,8 @@ input[type=submit] {
 
 .cattery-title {
     font-family: News Cycle, sans-serif;
-    color: rgb(204, 185, 169);
-    font-size: 64px;
+    color:  rgb(204 200 197);
+    font-size: 65px;
     font-weight: 700;
 }
 
@@ -972,6 +1017,90 @@ input[type=submit] {
 .grid-cleo-container{
     display: grid;
     grid-template-columns: 50%;
+}
+
+.grid-katee-container{
+    display: grid;
+    grid-template-columns: 50%;
+}
+
+.katee-image{
+    grid-column: 2 / -1;
+    grid-row: 1 / -1;
+    width: 100%;
+}
+
+.katee-text-container {
+    display: grid;
+    grid-auto-rows: auto;
+    grid-column: 1 / 2;
+    grid-row: 1 / -1;
+    row-gap: 5%;
+    align-content: center;
+    background-color: rgb(242, 237, 233);
+    font-family: News Cycle, sans-serif;
+}
+
+.katee-item-1{
+    grid-row: 1 / 2;
+}
+
+.katee-item-2{
+    grid-row: 2 / 3;
+}
+
+.katee-item-3{
+    grid-row: 3 / 4;
+}
+
+.katee-item-4{
+    grid-row: 4 / 5;
+}
+
+.katee{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.grid-charlie-container{
+    display: grid;
+    grid-template-columns: 50%;
+}
+
+.charlie-image{
+    grid-column: 1 / 2;
+    grid-row: 1 / -1;
+    width: 100%;
+}
+
+.charlie-text-container {
+    display: grid;
+    grid-auto-rows: auto;
+    grid-column: 2 / -1;
+    grid-row: 1 / -1;
+    row-gap: 5%;
+    align-content: center;
+    background-color: rgb(242, 237, 233);
+    font-family: News Cycle, sans-serif;
+}
+
+.charlie-item-1{
+    grid-row: 1 / 2;
+}
+
+.charlie-item-2{
+    grid-row: 2 / 3;
+}
+
+.charlie-item-3{
+    grid-row: 3 / 4;
+}
+
+.charlie-item-4{
+    grid-row: 4 / 5;
+}
+
+.charlie{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 .cleo-image{
@@ -1202,3 +1331,13 @@ input[type=submit] {
     resize: none;
     width: 100%;
 } 
+
+.grid-item-8{
+    grid-row: 8 / 9;
+    grid-column: 1 / -1;
+}
+
+.grid-item-9{
+    grid-row: 9 / 10;
+    grid-column: 1 / -1;
+}
